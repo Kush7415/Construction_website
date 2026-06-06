@@ -24,14 +24,20 @@ export default function Navbar() {
 
   useEffect(() => {
     const ids = ['hero', 'packages', 'compare', 'gallery', 'contact']
-    const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(e => { if (e.isIntersecting) setActiveSection(e.target.id) })
-      },
-      { threshold: 0.3 }
-    )
-    ids.forEach(id => { const el = document.getElementById(id); if (el) observer.observe(el) })
-    return () => observer.disconnect()
+    const onScroll = () => {
+      const navHeight = 64
+      let current = 'hero'
+      for (const id of ids) {
+        const el = document.getElementById(id)
+        if (el && el.getBoundingClientRect().top <= navHeight + 10) {
+          current = id
+        }
+      }
+      setActiveSection(current)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    onScroll()
+    return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
   const handleNavClick = (href) => {
