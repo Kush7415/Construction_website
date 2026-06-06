@@ -34,7 +34,15 @@ export default function Navbar() {
     return () => observer.disconnect()
   }, [])
 
-  const handleNavClick = () => setMenuOpen(false)
+  const handleNavClick = (href) => {
+    setMenuOpen(false)
+    // Small delay so drawer closes before scrolling
+    setTimeout(() => {
+      const id = href.replace('#', '')
+      const el = document.getElementById(id)
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 150)
+  }
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
@@ -113,23 +121,22 @@ export default function Navbar() {
           >
             <div className="px-4 py-4 flex flex-col gap-1">
               {navLinks.map(link => (
-                <a
+                <button
                   key={link.key}
-                  href={link.href}
-                  onClick={handleNavClick}
-                  className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
+                  onClick={() => handleNavClick(link.href)}
+                  className={`text-left px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
                     activeSection === link.href.slice(1)
                       ? 'text-primary bg-orange-50'
                       : 'text-gray-700 hover:text-primary hover:bg-orange-50'
                   }`}
                 >
                   {t(`nav.${link.key}`)}
-                </a>
+                </button>
               ))}
               <a
                 href="tel:+919827622032"
                 className="mt-2 flex items-center justify-center gap-2 bg-primary text-white px-4 py-3 rounded-xl text-sm font-semibold"
-                onClick={handleNavClick}
+                onClick={() => setMenuOpen(false)}
               >
                 <HiPhone className="w-4 h-4" />
                 {t('nav.callNow')}: 9827622032
