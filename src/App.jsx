@@ -6,7 +6,6 @@ import LoadingSpinner from './components/LoadingSpinner'
 const Packages   = lazy(() => import('./components/Packages'))
 const Comparison = lazy(() => import('./components/Comparison'))
 const Materials  = lazy(() => import('./components/Materials'))
-const WhyUs      = lazy(() => import('./components/WhyUs'))
 const Gallery    = lazy(() => import('./components/Gallery'))
 const Contact    = lazy(() => import('./components/Contact'))
 const Footer     = lazy(() => import('./components/Footer'))
@@ -25,9 +24,6 @@ export default function App() {
         </Suspense>
         <Suspense fallback={<LoadingSpinner />}>
           <Materials />
-        </Suspense>
-        <Suspense fallback={<LoadingSpinner />}>
-          <WhyUs />
         </Suspense>
         <Suspense fallback={<LoadingSpinner />}>
           <Gallery />
