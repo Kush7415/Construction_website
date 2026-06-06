@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "home": "Home",
+    "packages": "Packages",
+    "compare": "Compare",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "callNow": "Call Now",
+    "brandLine1": "Shree Sai",
+    "brandLine2": "Construction",
+    "brandSub": "श्री साई कंस्ट्रक्शन"
+  },
+  "hero": {
+    "heading1": "Building Your",
+    "heading2": "Dream Home",
+    "subheading": "with Quality & Trust",
+    "subtext": "Three carefully crafted packages to match every budget and dream — from Happiness to Luxury.",
+    "cta1": "Explore Packages",
+    "cta2": "Call Now: 9827622032",
+    "stat1Label": "Years Warranty",
+    "stat1Value": "10+",
+    "stat2Label": "Quality Checks",
+    "stat2Value": "300+",
+    "stat3Label": "Packages",
+    "stat3Value": "3",
+    "stat4Label": "ISI Certified",
+    "stat4Value": "100%"
+  },
+  "packages": {
+    "eyebrow": "Our Plans",
+    "title": "Choose Your Package",
+    "subtitle": "Transparent pricing, no hidden costs — built for every family's dream.",
+    "perSqft": "/sqft",
+    "knowMore": "Know More",
+    "popular": "MOST POPULAR",
+    "happiness": {
+      "name": "Happiness Package",
+      "badge": "ENTRY",
+      "h1": "M-20 Grade Concrete",
+      "h2": "Floor Height 10'6\"",
+      "h3": "Zigzag Stairs ₹15k extra/floor",
+      "h4": "1000L Overhead Tank",
+      "h5": "Tiles ₹35/sqft"
+    },
+    "premium": {
+      "name": "Premium Package",
+      "badge": "POPULAR",
+      "h1": "M-20 Grade Concrete",
+      "h2": "Floor Height 11'",
+      "h3": "Zigzag Stairs Included",
+      "h4": "1500L Overhead Tank",
+      "h5": "Tiles ₹40/sqft"
+    },
+    "luxury": {
+      "name": "Luxury Package",
+      "badge": "PREMIUM",
+      "h1": "M-25 Concrete (Higher Grade!)",
+      "h2": "Floor Height 11'",
+      "h3": "Zigzag Stairs Included",
+      "h4": "1500L Overhead Tank",
+      "h5": "Tiles ₹45/sqft"
+    }
+  },
+  "compare": {
+    "eyebrow": "Side by Side",
+    "title": "Detailed Comparison",
+    "subtitle": "Every specification, category by category.",
+    "happiness": "Happiness",
+    "premium": "Premium",
+    "luxury": "Luxury",
+    "tabs": {
+      "structural": "Structural",
+      "flooring": "Flooring & Tiling",
+      "waterproofing": "Waterproofing",
+      "doors": "Doors & Windows",
+      "electrical": "Electrical & Railing",
+      "painting": "Painting",
+      "sanitary": "Sanitary"
+    },
+    "feature": "Feature"
+  },
+  "materials": {
+    "eyebrow": "All Packages",
+    "title": "Construction Materials",
+    "subtitle": "Same premium materials across all three packages — no compromise on quality.",
+    "steel": "ISI TMT Bar",
+    "cement": "Ultratech / JK / Birla / Mycem",
+    "iron": "12mm, 10mm, 8mm, 6mm",
+    "terrace": "4 inch / 4.5 inch",
+    "brick": "₹8–9 per brick",
+    "steelLabel": "Steel",
+    "cementLabel": "Cement",
+    "ironLabel": "Iron Sizes",
+    "terraceLabel": "Terrace Thickness",
+    "brickLabel": "Brick Rate"
+  },
+  "whyus": {
+    "eyebrow": "Why Us",
+    "title": "Why Choose Shree Sai?",
+    "subtitle": "Built on trust, delivered with craftsmanship.",
+    "u1title": "300+ Quality Checklist",
+    "u1desc": "Every project goes through 300+ quality checks at every construction stage.",
+    "u2title": "IS Code Certified Design",
+    "u2desc": "Engineering designs certified as per IS 456:2000 & IS 13902 standards.",
+    "u3title": "Experienced Engineer Team",
+    "u3desc": "Seasoned engineers and site supervisors overseeing every brick laid.",
+    "u4title": "Dedicated Material Team",
+    "u4desc": "Specialists who select and verify every material before it reaches your site.",
+    "u5title": "Project Management",
+    "u5desc": "CRM and quality tools to keep your project on time and on budget.",
+    "u6title": "Flexible Payments",
+    "u6desc": "Debit, Credit, and Cash payments all accepted — build with ease."
+  },
+  "gallery": {
+    "eyebrow": "Our Work",
+    "title": "Project Gallery",
+    "subtitle": "Our completed projects gallery — photos coming soon.",
+    "placeholder": "Project Photo Coming Soon"
+  },
+  "contact": {
+    "eyebrow": "Get In Touch",
+    "title": "Ready to Build Your Dream Home?",
+    "subtitle": "Contact us today for a free consultation. We'll walk you through the right package for your budget.",
+    "phone": "Phone / WhatsApp",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Business Hours",
+    "hoursVal": "Mon–Sat, 9AM–7PM",
+    "addressVal": "Patel Market, Mirzapur Road, Indore (M.P.)",
+    "callBtn": "Call Now",
+    "whatsappBtn": "Chat on WhatsApp",
+    "freeConsult": "Call us directly for a free consultation",
+    "freeConsultSub": "No obligations, no fees — just expert advice on building your dream home."
+  },
+  "footer": {
+    "tagline": "Building dreams with quality, trust, and craftsmanship — Indore, M.P.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "copyright": "© 2025 Shree Sai Construction. All rights reserved.",
+    "madeWith": "Made with ❤️ in Indore, M.P."
+  },
+  "warranty": {
+    "eyebrow": "All Packages",
+    "title": "Warranty Coverage",
+    "subtitle": "Complete peace of mind — every package backed by our warranty.",
+    "structure": "Structure",
+    "structureVal": "10 Years",
+    "paint": "Paint",
+    "paintVal": "3 Years",
+    "termite": "Anti Termite",
+    "termiteVal": "5 Years",
+    "pipe": "Pipe Leakage",
+    "pipeVal": "2 Years"
+  }
+}
