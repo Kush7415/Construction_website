@@ -21,6 +21,7 @@ const tableData = {
     { feature: 'Granite (Kitchen or Stairs)', h: 'Upto ₹85/sqft, 150 sqft', p: 'Upto ₹100/sqft, 150 sqft', l: 'Upto ₹110/sqft, 200 sqft', pUpgrade: true, lUpgrade: true },
     { feature: 'Bathroom Tiles (Anti Skid)', h: '₹30/sqft', p: '₹35/sqft', l: '₹40/sqft', pUpgrade: true, lUpgrade: true },
     { feature: 'Kitchen Dado / Toilet Dado / Wash Area', h: '₹30/sqft', p: '₹35/sqft', l: '₹40/sqft', pUpgrade: true, lUpgrade: true },
+    { feature: 'Stairs Tiling', h: 'Single Tappa, Single Layer, Single Polish', p: 'Double Tappa, Double Layer, Double Polish', l: 'Double Tappa, Double Layer, Double Polish with White Line in Middle', pUpgrade: true, lUpgrade: true },
   ],
   waterproofing: [
     { feature: 'Bathroom Waterproofing', h: 'Brick Bat Coba', p: 'Brick Bat Coba', l: 'Brick Bat Coba' },
