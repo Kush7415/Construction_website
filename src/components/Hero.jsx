@@ -63,7 +63,7 @@ export default function Hero() {
         <motion.div {...fadeUp(0.1)} className="mb-6">
           <span className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 text-orange-300 text-[11px] sm:text-xs font-bold px-3 sm:px-4 py-2 rounded-full tracking-wider sm:tracking-widest uppercase">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse flex-shrink-0" />
-            श्री साई कंस्ट्रक्शन · इंदौर, म.प्र.
+            {t('hero.eyebrow')}
           </span>
         </motion.div>
 
