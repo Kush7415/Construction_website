@@ -115,7 +115,6 @@ lng: localStorage.getItem('ssc_lang') || 'en',  // change 'en' to 'hi'
 
 | | |
 |---|---|
-| Phone / WhatsApp | [9827622032](tel:+919827622032) |
 | Email | sajansmardana@gmail.com |
 | Address | Patel Market, Mirzapur Road, Indore (M.P.) |
 
