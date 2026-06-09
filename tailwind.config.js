@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary:    '#E07B2A',
-        secondary:  '#1A2B4A',
-        accent:     '#F5A623',
-        background: '#FAFAF8',
+        primary:    '#FF6B00',
+        secondary:  '#1C1C1E',
+        accent:     '#FF8C00',
+        background: '#FAFAFA',
         card:       '#FFFFFF',
         textMain:   '#1A1A1A',
         happiness:  '#2563EB',
